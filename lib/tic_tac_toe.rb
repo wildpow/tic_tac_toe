@@ -24,7 +24,7 @@ class TicTacToe
 
   def move(index, player = "X")
     @board[index] = player
-  end
+  end #
 
   def position_taken?(index)
     @board[index] != " " && @board[index] != ""
